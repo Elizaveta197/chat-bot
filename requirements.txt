@@ -1,0 +1,11 @@
+aiogram==2.20
+asyncpg==0.25.0
+SQLAlchemy==1.4.36
+python-dotenv==0.20.0
+transformers==4.20.1
+torch==1.11.0
+numpy==1.22.4
+wave==0.0.2
+structlog==21.5.0
+pydantic==1.9.0
+aiosqlite==0.17.0
