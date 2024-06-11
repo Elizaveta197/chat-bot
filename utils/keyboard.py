@@ -4,7 +4,7 @@ def dynamic_keyboard(options):
     keyboard = InlineKeyboardMarkup(row_width=3)
     buttons = [InlineKeyboardButton(text=opt, callback_data=f"choice_{idx}") for idx, opt in enumerate(options, start=1)]
     keyboard.add(*buttons)
-    return keyboard
+    return keyboar
 
 def pagination_keyboard(total_pages, current_page):
     keyboard = InlineKeyboardMarkup()
